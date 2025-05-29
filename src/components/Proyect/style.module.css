@@ -1,0 +1,42 @@
+.sec {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 70vw;
+    align-items: center;
+    height: 600px;
+    & a {
+        color: #000;
+        text-decoration: none;
+        width: 300px;
+        transition: scale ease-in-out 0.8s;
+        margin-left: 20px;
+        &:hover {
+            scale: 1.1;
+            transition: scale ease-in-out 0.8s;
+        }
+
+        & article {
+            border-radius: 12px;
+            padding: 8px;
+
+            & img { 
+                height: 380px;
+                width: 280px;
+                border-radius: 14px;
+            }
+        }
+    }
+}
+
+@media (width < 800px) {
+    .sec {
+        overflow: scroll;
+        width: 100vw;
+        gap: 8px;
+
+        & article {
+            width: 300px;
+        }
+    }
+}

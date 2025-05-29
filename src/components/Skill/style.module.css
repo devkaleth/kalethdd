@@ -1,0 +1,31 @@
+.art { 
+    display: grid;
+    place-items: center center;
+    gap: 20px;
+    grid-template-columns: repeat(6 , 1fr);
+    margin: 40px;
+    & section{
+        background: #fff;
+        border-radius: 20px; 
+        box-shadow: 7px 5px 20px 0px #8c8eb5;
+        & a {
+            padding: 14px;
+            display: flex;
+            height: 20px;
+            place-items: center center;
+            gap: 20px;
+            color: #000;
+            text-decoration: none;
+        }
+    }
+}
+
+@media (width < 800px) {
+    .art {
+        grid-template-columns: repeat(2 , 1fr);
+        width: 20px;
+        & section {
+            width: 100%;
+        }
+   } 
+}

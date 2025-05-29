@@ -1,0 +1,11 @@
+.main {
+    grid-column: 1/9;
+    place-content: center center;
+    place-items: center center;
+    flex-direction: column;
+    margin: 220px;
+    & svg {
+        width: 200px;
+        height: 200px;
+    }
+}
