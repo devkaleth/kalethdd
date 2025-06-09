@@ -40,14 +40,14 @@
     width: 8px;
 }
 #main::-webkit-scrollbar-track {
-    background: #c8dbf0;
+    background: #313437;
     height: 50px;
     margin: 200px;
     right: 20px;
     border-radius: 20px;
 }
 #main::-webkit-scrollbar-thumb {
-    background: #697696;
+    background: #b0afaf;
     border-radius: 20px;
     margin: 20px;
 }
