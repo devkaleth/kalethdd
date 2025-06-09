@@ -1,10 +1,11 @@
 #main {
-    height : 100vh;
+    height: 100vh;
     width: 95%;
-    overflow-x: overlay; 
+    overflow-x: overlay;
     grid-column: 2 / 9;
     scroll-snap-type: x mandatory;
     margin-left: 40px;
+
     & .card {
         display: flex;
         place-items: center;
@@ -16,15 +17,18 @@
         right: 0;
         border-radius: 20px 0px 0px 20px;
         margin-top: 20px;
-        height: 20px;  
+        height: 20px;
     }
+
     & section:has(h2) {
         margin-top: 60px;
         margin-bottom: 80px;
+
         & h2 {
             margin-left: 40px;
         }
     }
+
     & .sec_footer {
         display: flex;
         gap: 20px;
@@ -33,12 +37,14 @@
         border-radius: 20px;
         background: #3c3c3c;
         margin: 40px;
-        color: #fff; 
+        color: #fff;
     }
 }
-#main::-webkit-scrollbar{
+
+#main::-webkit-scrollbar {
     width: 8px;
 }
+
 #main::-webkit-scrollbar-track {
     background: #313437;
     height: 50px;
@@ -46,17 +52,34 @@
     right: 20px;
     border-radius: 20px;
 }
+
 #main::-webkit-scrollbar-thumb {
     background: #b0afaf;
     border-radius: 20px;
     margin: 20px;
 }
 
-@media (width < 800px){
+@media (width < 800px) {
     #main {
-        margin: 2px;
-        overflow: initial;
-        width: 95vw;
-        grid-column: 1;
+        display: flex;
+        place-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        overflow: hidden;
+        height: auto;
+
+        & section:has(h2) {
+            margin-top: 10px;
+            margin-bottom: 20px;
+
+            & h2 {
+                margin-left: 40px;
+            }
+        }
+
+        & .sec_footer {
+            margin-bottom: 20px;
+        }
     }
 }
