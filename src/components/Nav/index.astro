@@ -74,10 +74,24 @@ import Style from "./style.module.css";
             <p>LinkedIn</p>
         </a>
     </section>
-    <section class={Style.sec_a}>
-        <a href="">Descargar CV</a>
-    </section>
+    
     <section class={Style.sec_number}>
+        <section class={Style.sec_a} id="cv">
+            <a href=""> > Descargar CV</a>
+        </section>
         <p>dev.kaleth.mendoza@gmail.com</p>
     </section>
 </nav>
+
+<script is:inline>
+    const cv = document.querySelector('#cv')
+    const url = '/cv/kaleth_mendoza.pdf'
+    cv.addEventListener('click' , (e) => {
+        e.preventDefault()
+        const a = document.createElement('a')
+        a.href = url
+        a.download = 'kaleth_mendoza.pdf'
+        a.click()
+    })
+
+</script>
