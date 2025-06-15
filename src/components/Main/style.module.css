@@ -39,6 +39,10 @@
         margin: 40px;
         color: #fff;
     }
+    & .diseños {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 #main::-webkit-scrollbar {
@@ -80,6 +84,9 @@
 
         & .sec_footer {
             margin-bottom: 20px;
+        }
+        & .diseños {
+            flex-direction: column;
         }
     }
 }
