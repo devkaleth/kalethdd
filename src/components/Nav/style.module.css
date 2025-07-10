@@ -88,8 +88,7 @@
     }
 
     & .a_linkedin {
-        box-shadow: 1px 0px 9px 0px #0a66c2;
-        ;
+        filter: drop-shadow(3px 10px 18px #322c86);
     }
 
     & .sec_number {

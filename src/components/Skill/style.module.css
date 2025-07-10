@@ -7,7 +7,11 @@
     & section{
         background: #fff;
         border-radius: 20px; 
-        box-shadow: 7px 5px 20px 0px #8c8eb5;
+        transition: filter ease 1.2s;
+        &:hover {
+            filter: drop-shadow(2px 10px 60px rgb(10, 15, 28));
+            transition: filter ease 1.2s;
+        }
         & a {
             padding: 14px;
             display: flex;
@@ -17,6 +21,7 @@
             color: #000;
             text-decoration: none;
         }
+        
     }
 }
 
