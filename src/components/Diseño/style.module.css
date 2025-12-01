@@ -1,15 +1,16 @@
+
+.div_cards {
+  display:flex;
+  flex-direction: row;
+}
 .card {
     display: flex;
     flex-direction: column;
-    margin: 50px;
-    padding: 28px;
-    gap: 20px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 20px 2px #7576765b;
-    background: #fff;
-    width: 200px;
+    text-align: center;
+    margin: 20px;
+    gap: 10px;
     & img {
         border-radius: 10px;
-        width: 200px;
+        width: 600px;
     }
 }
