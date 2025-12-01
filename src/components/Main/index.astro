@@ -3,45 +3,12 @@ import Style from "./style.module.css";
 import Skill from "../Skill/index.astro";
 import Proyect from "../Proyect/index.astro";
 import About from "../About/index.astro";
-import Aprender from "../Aprender/index.astro";
-import Correo from "../Correo/index.astro";
 import Diseño from "../Diseño/index.astro";
-import { User } from "@lucide/astro";
 ---
 
 <main id={Style.main}>
-  <section class={Style.card} id="card">
-    <p>Bienvenido a mi pagina :)</p>
-  </section>
-  <section class={Style.about}>
-    <h2>
-      #Sobre mi
-      <User />
-    </h2>
-    <About />
-  </section>
-  <section class={Style.skil}>
-    <h2>#habilidades</h2>
-    <Skill />
-  </section>
-  <section class={Style.proyect}>
-    <h2>#proyectos</h2>
-    <Proyect />
-  </section>
+  <About />
+  <Skill />
+  <Proyect />
   <Diseño />
-  <!-- <section>
-        <h2>#Cosas que me gustaria aprender</h2>
-        <Aprender/>
-    </section>  -->
 </main>
-<script is:inline>
-  const card = document.querySelector("#card");
-
-  const Loading = () => {
-    setInterval(() => {
-      card.style = "display : none";
-    }, 3000);
-  };
-  Loading();
-  document.addEventListener("astro:after-swap", () => Loading);
-</script>
