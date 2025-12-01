@@ -22,22 +22,8 @@
     & section:has(h2) {
         margin-top: 60px;
         margin-bottom: 80px;
-
-        & h2 {
-            margin-left: 40px;
-        }
     }
 
-    & .sec_footer {
-        display: flex;
-        gap: 20px;
-        place-content: center;
-        place-items: center;
-        border-radius: 20px;
-        background: #3c3c3c;
-        margin: 40px;
-        color: #fff;
-    }
     & .diseños {
         display: flex;
         flex-direction: row;
