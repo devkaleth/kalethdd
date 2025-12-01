@@ -1,18 +1,18 @@
 .nav {
     display: grid;
+    width:100%;
     grid-template-rows: auto;
     place-items: center center;
     place-content: center center;
     text-align: center;
     flex-direction: column;
     grid-column: 1;
-    background: linear-gradient(45deg, #1f1f1f, #444c54);
+    /* background: linear-gradient(45deg, #1f1f1f, #444c54); */
     border-radius: 0px 22px 22px 0px;
-    width: 300px;
-    color: #fff;
-    box-shadow: -1px 6px 20px 0px #000;
-    background-image: url('./img/img.jpg');
-    background-position: center;
+    color: #000;
+    /* box-shadow: -1px 6px 20px 0px #000; */
+    /* background-image: url('./img/img.jpg'); */
+    /* background-position: center; */
 
     & .sec_icon {
         display: flex;
@@ -79,7 +79,7 @@
         margin-bottom: 80px;
 
         & a {
-            color: #fff; 
+            color: #fff;
             display: flex;
             align-items: center;
             justify-content: center;
