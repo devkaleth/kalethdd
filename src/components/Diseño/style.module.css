@@ -1,16 +1,29 @@
-
 .div_cards {
-  display:flex;
+  display: flex;
   flex-direction: row;
 }
+
 .card {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+  gap: 10px;
+
+  & img {
+    border-radius: 10px;
+    width: 600px;
+  }
+}
+
+@media (width < 800px) {
+  .div_cards {
     flex-direction: column;
-    text-align: center;
-    margin: 20px;
-    gap: 10px;
+  }
+
+  .card {
     & img {
-        border-radius: 10px;
-        width: 600px;
+      width: 200px;
     }
+  }
 }
