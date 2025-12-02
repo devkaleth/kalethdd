@@ -1,6 +1,6 @@
 .nav {
     display: grid;
-    width:100%;
+    width: 100%;
     grid-template-rows: auto;
     place-items: center center;
     place-content: center center;
@@ -9,14 +9,6 @@
     grid-column: 1;
     border-radius: 0px 22px 22px 0px;
     color: #000;
-
-    & .sec_icon {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: flex-end;
-        margin: 8px;
-    }
 
     & .sec_menu {
         display: flex;
