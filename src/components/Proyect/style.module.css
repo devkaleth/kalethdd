@@ -1,3 +1,9 @@
+.h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 80px 0px 80px 0px;
+}
+
 .sec {
     display: flex;
     overflow-x: scroll;
@@ -5,12 +11,14 @@
     width: 70vw;
     align-items: center;
     height: 600px;
+
     & a {
         color: #000;
         text-decoration: none;
         width: 300px;
         transition: scale ease-in-out 0.8s;
         margin-left: 20px;
+
         &:hover {
             scale: 1.1;
             transition: scale ease-in-out 0.8s;
@@ -20,7 +28,7 @@
             border-radius: 12px;
             padding: 8px;
 
-            & img { 
+            & img {
                 height: 380px;
                 width: 280px;
                 border-radius: 14px;

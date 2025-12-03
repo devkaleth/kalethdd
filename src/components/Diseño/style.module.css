@@ -1,3 +1,9 @@
+.h2 {
+  font-size: 30px;
+  text-decoration: underline;
+  margin: 80px 0px 80px 0px;
+}
+
 .div_cards {
   display: flex;
   flex-direction: row;
