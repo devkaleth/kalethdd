@@ -1,14 +1,12 @@
 #main {
-    padding: 60px;
-    margin: 80px 80px 80px 80px;
 }
 
 @media (width < 800px) {
-    #main {
-        display: flex;
-        place-content: center;
-        flex-direction: column;
-        margin: 0px;
-        padding: 10px;
-    }
+  #main {
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+  }
 }

@@ -1,10 +1,12 @@
 .h2 {
-    font-size: 30px;
-    text-decoration: underline;
+  font-size: 35px;
 }
 
 .sec {
-    padding: 20px;
-    font-size: 18px;
-    color: #000000bd;
+  font-size: 18px;
+  height: 25dvh;
+  color: #000000bd;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
