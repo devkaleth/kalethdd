@@ -6,10 +6,8 @@
 
   & article {
     display: grid;
-    place-items: center center;
-    gap: 20px;
-    grid-template-columns: repeat(6, 1fr);
-    margin: 40px;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
 
     & section {
       background: #fff;
