@@ -1,5 +1,6 @@
 #main {
   margin: 0px 160px 0px 160px;
+  width: 100dvw;
 }
 
 @media (width < 800px) {
@@ -7,6 +8,5 @@
     display: flex;
     place-content: center;
     flex-direction: column;
-    margin: 0px 40px 0px 20px;
   }
 }

@@ -17,3 +17,9 @@
     }
   }
 }
+
+@media (width < 800px) {
+  .about {
+    height: 100dvh;
+  }
+}
