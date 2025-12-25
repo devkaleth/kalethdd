@@ -1,0 +1,29 @@
+---
+import Style from "./style.module.css";
+import { House, Undo2, Menu } from "@lucide/astro";
+---
+
+<div class={Style.design}>
+  <h2>Diseños</h2>
+  <div>
+    <section>
+      <section class={Style.banner_phone}></section>
+      <img src="/img/diseño/taskly.png" alt="" />
+      <section class={Style.banner_phone_menu}>
+        <Undo2 />
+        <House />
+        <Menu />
+      </section>
+    </section>
+
+    <section>
+      <section class={Style.banner_phone}></section>
+      <img src="/img/diseño/chanllege.png" alt="" />
+      <section class={Style.banner_phone_menu}>
+        <Undo2 />
+        <House />
+        <Menu />
+      </section>
+    </section>
+  </div>
+</div>

@@ -1,0 +1,66 @@
+.design {
+  margin-bottom: 80px;
+  & h2 {
+    font-size: 35px;
+  }
+  & div {
+    display: flex;
+    flex-direction: row;
+    & section {
+      overflow: hidden;
+      position: relative;
+      border: solid #000 3.4px;
+      border-radius: 26px;
+      display: flex;
+      flex-direction: column;
+      z-index: 10;
+      align-items: center;
+      text-align: center;
+      margin: 10px;
+      height: 580px;
+      width: 280px;
+      & .banner_phone {
+        position: absolute;
+        transform: translateX(-50%);
+        left: 50%;
+        border: none;
+        width: 100px; /* mejor en px que 4% */
+        height: 25px;
+        background: #000;
+      }
+      & .banner_phone_menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        border-radius: 0px;
+        border: none;
+        padding: 8px;
+        height: 5dvh;
+        margin: 0px 0px 0px 0px;
+        font-size: 12px;
+      }
+      & img {
+        image-rendering: auto;
+        margin: 0px;
+        width: 100%;
+        position: relative;
+        height: 90dvh;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+  }
+}
+
+@media (width < 800px) {
+  .div_cards {
+    flex-direction: column;
+  }
+
+  .card {
+    & img {
+      width: 200px;
+    }
+  }
+}
