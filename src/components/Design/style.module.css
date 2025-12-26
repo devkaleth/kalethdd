@@ -52,15 +52,3 @@
     }
   }
 }
-
-@media (width < 800px) {
-  .div_cards {
-    flex-direction: column;
-  }
-
-  .card {
-    & img {
-      width: 200px;
-    }
-  }
-}

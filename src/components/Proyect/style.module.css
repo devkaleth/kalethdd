@@ -1,26 +1,30 @@
-.h2 {
-  font-size: 35px;
-}
+.proyect {
+  height: 60dvh;
 
-.sec {
-  display: flex;
-  width: 70vw;
-  align-items: center;
+  & h2 {
+    font-size: 35px;
+  }
 
-  & a {
-    color: #000;
-    text-decoration: none;
-    width: 300px;
-    margin-left: 20px;
+  & section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    & a {
+      color: #000;
+      text-decoration: none;
+      margin-left: 20px;
+      & article {
+        border-radius: 12px;
+        padding: 8px;
 
-    & article {
-      border-radius: 12px;
-      padding: 8px;
-
-      & img {
-        height: 380px;
-        width: 280px;
-        border-radius: 14px;
+        & img {
+          height: 80px;
+          width: 380px;
+          border-radius: 4px;
+          box-shadow: 2px 2px 15px 2px #ddd;
+        }
       }
     }
   }
