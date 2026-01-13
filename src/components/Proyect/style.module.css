@@ -1,6 +1,5 @@
 .proyect {
   height: 60dvh;
-
   & h2 {
     font-size: 35px;
   }
@@ -17,10 +16,9 @@
       margin-left: 20px;
       & article {
         border-radius: 12px;
-        padding: 8px;
-
+        padding: 2px;
         & img {
-          height: 80px;
+          height: 60px;
           width: 380px;
           border-radius: 4px;
           box-shadow: 2px 2px 15px 2px #ddd;
