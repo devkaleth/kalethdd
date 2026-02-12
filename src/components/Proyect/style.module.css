@@ -1,9 +1,5 @@
 .proyect {
   height: 100dvh;
-  & h2 {
-    font-size: 35px;
-  }
-
   & section {
     display: grid;
     justify-content: center;

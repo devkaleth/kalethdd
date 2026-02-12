@@ -1,12 +1,6 @@
 .skill {
   height: 100dvh;
-  background: #fffce8;
-  & h2 {
-    color: #000;
-    letter-spacing: 3px;
-    font-size: 80px;
-    padding: 40px;
-  }
+  background: #f5f0d2;
 
   & article {
     margin-left: 40px;
@@ -20,15 +14,12 @@
       & a {
         padding: 20px;
         display: flex;
+        font-size: 20px;
         height: 20px;
         place-items: center center;
         gap: 80px;
         color: #000;
         text-decoration: none;
-        & svg {
-          width: 35px;
-          height: 35px;
-        }
       }
     }
   }

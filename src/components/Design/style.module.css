@@ -1,8 +1,5 @@
 .design {
   margin-bottom: 80px;
-  & h2 {
-    font-size: 35px;
-  }
   & div {
     display: flex;
     flex-direction: row;

@@ -1,8 +1,5 @@
 .about {
   height: 100dvh;
-  & h2 {
-    font-size: 35px;
-  }
 
   & section {
     margin-left: 20px;
