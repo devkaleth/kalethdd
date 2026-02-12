@@ -1,32 +1,34 @@
 .skill {
   height: 100dvh;
+  background: #fffce8;
   & h2 {
-    font-size: 35px;
+    color: #000;
+    letter-spacing: 3px;
+    font-size: 80px;
+    padding: 40px;
   }
 
   & article {
+    margin-left: 40px;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
-
+    align-content: center;
     & section {
-      background: #fff;
       border-radius: 20px;
       transition: filter ease 1.2s;
-
-      &:hover {
-        filter: drop-shadow(2px 10px 60px rgb(10, 15, 28));
-        transition: filter ease 1.2s;
-      }
-
       & a {
-        padding: 14px;
+        padding: 20px;
         display: flex;
         height: 20px;
         place-items: center center;
-        gap: 20px;
+        gap: 80px;
         color: #000;
         text-decoration: none;
+        & svg {
+          width: 35px;
+          height: 35px;
+        }
       }
     }
   }
