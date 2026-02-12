@@ -5,12 +5,14 @@
   & article {
     margin-left: 40px;
     display: grid;
-    gap: 10px;
+    gap: 6px;
     grid-template-columns: repeat(3, 1fr);
     align-content: center;
     & section {
-      border-radius: 20px;
-      transition: filter ease 1.2s;
+      /*transition: filter ease 1.2s;*/
+      &:hover {
+        outline: 2px solid #000;
+      }
       & a {
         padding: 20px;
         display: flex;
