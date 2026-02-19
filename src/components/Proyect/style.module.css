@@ -1,12 +1,9 @@
 .proyect {
   height: 100dvh;
   & section {
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 20px;
     & a {
       color: #000;
       text-decoration: none;
@@ -15,8 +12,8 @@
         border-radius: 12px;
         padding: 2px;
         & img {
-          height: 60px;
-          width: 380px;
+          height: 160px;
+          width: 580px;
           border-radius: 4px;
           box-shadow: 2px 2px 15px 2px #ddd;
         }
