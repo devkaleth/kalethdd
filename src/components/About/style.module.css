@@ -1,6 +1,9 @@
 .about {
   height: 100dvh;
-
+  background: #000;
+  & h2 {
+    color: #fff;
+  }
   & section {
     margin: 0px 80px;
     display: flex;
@@ -10,9 +13,9 @@
     flex-direction: column;
     font-size: 16px;
     & p {
+      color: #fff;
       letter-spacing: 3px;
       line-height: 30px;
-      color: #0e3543;
     }
   }
 }
