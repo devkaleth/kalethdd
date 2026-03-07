@@ -26,15 +26,3 @@
     }
   }
 }
-
-@media (width < 800px) {
-  .skill {
-    height: 100dvb;
-    & article {
-      grid-template-columns: repeat(2, 1fr);
-      & section {
-        width: 100%;
-      }
-    }
-  }
-}

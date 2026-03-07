@@ -1,5 +1,6 @@
 .about {
   height: 100dvh;
+  margin: 0px;
   background: #000;
   & h2 {
     color: #fff;
@@ -17,11 +18,5 @@
       letter-spacing: 3px;
       line-height: 30px;
     }
-  }
-}
-
-@media (width < 800px) {
-  .about {
-    height: 100dvh;
   }
 }
