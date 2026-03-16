@@ -25,11 +25,12 @@
       }
 
       & img {
-        border-radius: 100%;
-        height: 180px;
+        border-radius: 18px;
+        height: 400px;
         image-orientation: from-image;
-        width: 180px;
+        width: 400px;
         box-shadow: 2px 0px 20px 2px #9558ab99;
+        corner-shape: scoop;
       }
     }
   }
