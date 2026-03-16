@@ -1,50 +1,35 @@
 .design {
-  margin-bottom: 80px;
+  height: 100dvh;
   & div {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    & a {
+      text-decoration: none;
+    }
+    & a:nth-child(1) {
+      /* nth-child -> seleceiona el hijo que tu quieras */
+      & section {
+        & img {
+          box-shadow: 2px 0px 16px 2px #4a83fd;
+        }
+      }
+    }
     & section {
-      overflow: hidden;
-      position: relative;
-      border: solid #000 3.4px;
-      border-radius: 26px;
-      display: flex;
-      flex-direction: column;
-      z-index: 10;
-      align-items: center;
-      text-align: center;
-      margin: 10px;
-      height: 580px;
-      width: 280px;
-      & .banner_phone {
-        position: absolute;
-        transform: translateX(-50%);
-        left: 50%;
-        border: none;
-        width: 100px; /* mejor en px que 4% */
-        height: 25px;
-        background: #000;
+      margin: 50px;
+      & h4 {
+        text-align: center;
+        font-size: 26px;
+        font-style: none;
+        color: #000;
       }
-      & .banner_phone_menu {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 20px;
-        border-radius: 0px;
-        border: none;
-        padding: 8px;
-        height: 5dvh;
-        margin: 0px 0px 0px 0px;
-        font-size: 12px;
-      }
+
       & img {
-        image-rendering: auto;
-        margin: 0px;
-        width: 100%;
-        position: relative;
-        height: 90dvh;
-        object-fit: cover;
-        object-position: center;
+        border-radius: 100%;
+        height: 180px;
+        image-orientation: from-image;
+        width: 180px;
+        box-shadow: 2px 0px 20px 2px #9558ab99;
       }
     }
   }
