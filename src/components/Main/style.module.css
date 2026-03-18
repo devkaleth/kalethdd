@@ -1,5 +1,8 @@
 #main {
   /*margin: 0px 160px 0px 160px;*/
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  height: 100dvh;
 }
 
 @media (width < 800px) {

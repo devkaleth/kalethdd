@@ -2,6 +2,7 @@
   height: 100dvh;
   margin: 0px;
   background: #000;
+  scroll-snap-align: start;
   & h2 {
     color: #fff;
   }

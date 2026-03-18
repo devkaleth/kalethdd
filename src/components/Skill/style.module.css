@@ -1,6 +1,7 @@
 .skill {
   height: 100dvh;
   background: #f8f1c8;
+  scroll-snap-align: start;
 
   & article {
     margin-left: 40px;

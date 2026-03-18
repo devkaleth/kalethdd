@@ -9,7 +9,7 @@
   grid-column: 1;
   color: #000;
   height: 100dvh;
-
+  scroll-snap-align: start;
   & .sec_menu {
     display: flex;
     width: 100%;

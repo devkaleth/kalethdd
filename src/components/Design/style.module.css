@@ -1,5 +1,6 @@
 .design {
   height: 100dvh;
+  scroll-snap-align: start;
   & div {
     display: flex;
     justify-content: center;
