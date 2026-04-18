@@ -1,23 +1,25 @@
 .design {
-  height: 100dvh;
+  height: 50dvh;
   scroll-snap-align: start;
   & div {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    width: 100%;
     & a {
       text-decoration: none;
     }
     & a:nth-child(1) {
       /* nth-child -> seleceiona el hijo que tu quieras */
       & section {
+        width: 33.3vw;
         & img {
           box-shadow: 2px 0px 16px 2px #4a83fd;
         }
       }
     }
     & section {
+      width: 33.3vw;
       & h4 {
         text-align: center;
         font-size: 26px;
@@ -26,10 +28,10 @@
       }
 
       & img {
-        border-radius: 30px;
-        height: 400px;
+        border-radius: 6px;
+        height: 200px;
         image-orientation: from-image;
-        width: 400px;
+        width: 100%;
         box-shadow: 2px 0px 20px 2px #9558ab99;
         corner-shape: scoop;
       }

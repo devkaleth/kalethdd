@@ -29,7 +29,7 @@ import { Linkedin, Github, Twitter } from "@lucide/astro";
 
   <section class={Style.sec_number}>
     <section class={Style.sec_a} id="cv">
-      <a href=""> > Descargar CV</a>
+      <a href="">Descargar CV</a>
     </section>
     <p>dev.kaleth.mendoza@gmail.com</p>
   </section>
@@ -37,12 +37,12 @@ import { Linkedin, Github, Twitter } from "@lucide/astro";
 
 <script is:inline>
   const cv = document.querySelector("#cv");
-  const url = "/cv/kaleth_mendoza.pdf";
+  const url = "/cv/kaleth_david_mendoza_vasquez.pdf";
   cv.addEventListener("click", (e) => {
     e.preventDefault();
     const a = document.createElement("a");
     a.href = url;
-    a.download = "kaleth_mendoza.pdf";
+    a.download = "kaleth_david_mendoza_vasquez.pdf";
     a.click();
   });
 </script>
