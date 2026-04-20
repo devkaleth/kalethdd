@@ -14,7 +14,7 @@
       & section {
         width: 33.3vw;
         & img {
-          box-shadow: 2px 0px 16px 2px #4a83fd;
+          /*box-shadow: 2px 0px 16px 2px #4a83fd;*/
         }
       }
     }
@@ -32,7 +32,9 @@
         height: 200px;
         image-orientation: from-image;
         width: 100%;
-        box-shadow: 2px 0px 20px 2px #9558ab99;
+        object-fit: cover; /* llena el área sin deformar */
+        object-position: center;
+        /*box-shadow: 2px 0px 20px 2px #9558ab99;*/
         corner-shape: scoop;
       }
     }
