@@ -6,15 +6,33 @@ import Style from "./style.module.css";
 <div class={Style.design}>
   <h2 class="h2">Diseños</h2>
   <div>
-    <a
-      href="https://www.figma.com/design/IfTiyUdVMAKwVebAxBYhpI/crossmatch?node-id=0-1&t=NmRUAVBIroxjIBOT-1"
-      target="_blank"
-    >
-      <section>
-        <img src="/img/design/crossmatch.png" alt="" />
-      </section>
-    </a>
-    <a
+    <section class={Style.sec_main}>
+      <a
+        href="https://www.figma.com/design/IfTiyUdVMAKwVebAxBYhpI/crossmatch?node-id=0-1&t=NmRUAVBIroxjIBOT-1"
+        target="_blank"
+      >
+        <section class={Style.sec_img}>
+          <img src="/img/design/crossmatch.png" alt="" />
+        </section>
+        <section class={Style.sec_text}>
+          <h2>Crossmatch</h2>
+          <p>
+            Juego de lógica con ecuaciones cruzadas. Llena las celdas para que
+            todo cuadre.
+          </p>
+          <!-- <div class={Style.div_util}>
+            <img
+              src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge"
+              height="10"
+              width="10"
+              alt="nextjs logo"
+            />
+          </div> -->
+        </section>
+      </a>
+    </section>
+
+    <!-- <a
       href="https://www.figma.com/design/laLByBmvIPgEj3hKwSMXEn/Picture-chanllege?node-id=0-1&t=1MOhrBSUsMh518sp-1"
       target="_blank"
     >
@@ -22,10 +40,13 @@ import Style from "./style.module.css";
         <img src="/img/design/chanllege.png" alt="" />
       </section>
     </a>
-    <a href="#">
+    <a
+      href="https://www.figma.com/design/atGCpWR3MnQo0gC9FfU41h/taskly?t=JXwUBNxoPf0zgtOQ-1"
+      target="_blank"
+    >
       <section>
         <img src="/img/design/taskly.png" alt="" />
       </section>
-    </a>
+    </a> -->
   </div>
 </div>

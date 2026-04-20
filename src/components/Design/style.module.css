@@ -1,41 +1,38 @@
 .design {
-  height: 50dvh;
+  height: 100dvh;
   scroll-snap-align: start;
+  background: #5b7fd4;
   & div {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 100%;
-    & a {
-      text-decoration: none;
-    }
-    & a:nth-child(1) {
-      /* nth-child -> seleceiona el hijo que tu quieras */
-      & section {
-        width: 33.3vw;
-        & img {
-          /*box-shadow: 2px 0px 16px 2px #4a83fd;*/
+    padding: 20px;
+    & .sec_main {
+      width: 300px;
+      height: 400px;
+      background: #252020a2;
+      corner-shape: scoop;
+      border-radius: 10px;
+      & a {
+        text-decoration: none;
+        & section {
+          & img {
+            height: 200px;
+            width: 100%;
+            object-fit: cover; /* llena el área sin deformar */
+            object-position: center;
+            /*box-shadow: 2px 0px 20px 2px #9558ab99;*/
+          }
         }
-      }
-    }
-    & section {
-      width: 33.3vw;
-      & h4 {
-        text-align: center;
-        font-size: 26px;
-        font-style: none;
-        color: #000;
-      }
-
-      & img {
-        border-radius: 6px;
-        height: 200px;
-        image-orientation: from-image;
-        width: 100%;
-        object-fit: cover; /* llena el área sin deformar */
-        object-position: center;
-        /*box-shadow: 2px 0px 20px 2px #9558ab99;*/
-        corner-shape: scoop;
+        & .sec_text {
+          color: #fff;
+          padding: 8px;
+          & .div_util {
+            & img {
+              width: 120px;
+              height: 40px;
+            }
+          }
+        }
       }
     }
   }
