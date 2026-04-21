@@ -16,3 +16,18 @@
     }
   }
 }
+
+@media (width <= 800px) {
+  .skill {
+    & h2 {
+      font-size: 32px;
+    }
+    & article {
+      margin-left: 20px;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(12, 1fr);
+      gap: 8px;
+      box-sizing: border-box;
+    }
+  }
+}

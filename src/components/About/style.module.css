@@ -25,6 +25,9 @@
 
 @media (width <= 800px) {
   .about {
+    & h2 {
+      font-size: 32px;
+    }
     & section {
       margin: 0px 20px;
       display: flex;
