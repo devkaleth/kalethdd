@@ -3,9 +3,8 @@
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
   height: 100dvh;
+  width: 100dvw;
 }
 
 @media (width < 800px) {
-  #main {
-  }
 }
