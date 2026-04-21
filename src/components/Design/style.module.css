@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     padding: 20px;
+    gap: 20px;
     & .sec_main {
       width: 300px;
       height: 400px;
@@ -26,11 +27,8 @@
         & .sec_text {
           color: #fff;
           padding: 8px;
-          & .div_util {
-            & img {
-              width: 120px;
-              height: 40px;
-            }
+          & h2 {
+            color: #000;
           }
         }
       }
