@@ -23,7 +23,7 @@
       font-size: 32px;
     }
     & article {
-      margin-left: 20px;
+      margin-left: 16px;
       grid-template-columns: repeat(4, 1fr);
       grid-template-rows: repeat(12, 1fr);
       gap: 8px;
