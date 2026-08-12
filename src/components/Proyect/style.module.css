@@ -30,11 +30,10 @@
           width: 300px;
           height: 180px;
           & img:first-child {
-            height: 298px;
             width: 170px;
           }
         }
       }
     }
   }
-}
+ }
