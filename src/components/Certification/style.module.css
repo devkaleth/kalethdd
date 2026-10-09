@@ -1,0 +1,11 @@
+.certification {
+    scroll-snap-align: start;
+    width: 100dvw;
+    height: 100dvh;
+    & div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100%;
+    }
+}
