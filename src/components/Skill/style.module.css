@@ -7,8 +7,8 @@
     margin-left: 40px;
     display: grid;
     gap: 12px;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     align-content: center;
     & img {
       cursor: pointer;
