@@ -1,56 +1,50 @@
 ---
 import Style from "./style.module.css";
-//import "../../style/global.css";
+
+const designs = [
+  {
+    title: "Crossmatch",
+    description:
+      "Juego de lógica con ecuaciones cruzadas. Llena las celdas para que todo cuadre.",
+    img: "/img/design/crossmatch.png",
+    url: "https://www.figma.com/design/IfTiyUdVMAKwVebAxBYhpI/crossmatch?node-id=0-1&t=NmRUAVBIroxjIBOT-1",
+    tag: "Figma UX/UI",
+  },
+  {
+    title: "Picture Challenge",
+    description: "Comparte fotos y compite con amigos por el mayor puntaje.",
+    img: "/img/design/chanllege.png",
+    url: "https://www.figma.com/design/laLByBmvIPgEj3hKwSMXEn/Picture-chanllege?node-id=0-1&t=1MOhrBSUsMh518sp-1",
+    tag: "Figma UX/UI",
+  },
+  {
+    title: "Taskly",
+    description: "Gestiona tus tareas con un diseño oscuro y minimalista.",
+    img: "/img/design/taskly.png",
+    url: "https://www.figma.com/design/atGCpWR3MnQo0gC9FfU41h/taskly?t=JXwUBNxoPf0zgtOQ-1",
+    tag: "Figma UX/UI",
+  },
+];
 ---
 
 <div class={Style.design}>
   <h2 class="h2">Diseños</h2>
   <div>
-    <section class={Style.sec_main}>
-      <a
-        href="https://www.figma.com/design/IfTiyUdVMAKwVebAxBYhpI/crossmatch?node-id=0-1&t=NmRUAVBIroxjIBOT-1"
-        target="_blank"
-      >
-        <section class={Style.sec_img}>
-          <img src="/img/design/crossmatch.png" alt="" />
+    {
+      designs.map((item) => (
+        <section class={Style.sec_main}>
+          <a href={item.url} target="_blank" rel="noopener noreferrer">
+            <section class={Style.sec_img}>
+              <span class={Style.badge}>{item.tag}</span>
+              <img src={item.img} alt={`Diseño de ${item.title}`} />
+            </section>
+            <section class={Style.sec_text}>
+              <h2>{item.title}</h2>
+              <p>{item.description}</p>
+            </section>
+          </a>
         </section>
-        <section class={Style.sec_text}>
-          <h2>Crossmatch</h2>
-          <p>
-            Juego de lógica con ecuaciones cruzadas. Llena las celdas para que
-            todo cuadre.
-          </p>
-        </section>
-      </a>
-    </section>
-    <section class={Style.sec_main}>
-      <a
-        href="https://www.figma.com/design/laLByBmvIPgEj3hKwSMXEn/Picture-chanllege?node-id=0-1&t=1MOhrBSUsMh518sp-1"
-        target="_blank"
-      >
-        <section class={Style.sec_img}>
-          <img src="/img/design/chanllege.png" alt="" />
-        </section>
-        <section class={Style.sec_text}>
-          <h2>Picture Challenge</h2>
-          <p>Comparte fotos y compite con amigos por el mayor puntaje</p>
-        </section>
-      </a>
-    </section>
-
-    <section class={Style.sec_main}>
-      <a
-        href="https://www.figma.com/design/atGCpWR3MnQo0gC9FfU41h/taskly?t=JXwUBNxoPf0zgtOQ-1"
-        target="_blank"
-      >
-        <section class={Style.sec_img}>
-          <img src="/img/design/taskly.png" alt="" />
-        </section>
-        <section class={Style.sec_text}>
-          <h2>Taskly</h2>
-          <p>Gestiona tus tareas con un diseño oscuro y minimalista.</p>
-        </section>
-      </a>
-    </section>
+      ))
+    }
   </div>
 </div>
