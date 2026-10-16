@@ -1,62 +1,11 @@
 .certification {
-  scroll-snap-align: start;
-  width: 100dvw;
   height: 100dvh;
-  background: #f8f1c8;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  padding: 40px 20px;
-  overflow: hidden;
-
-  & h2 {
-    font-size: 48px;
-    font-weight: 800;
-    color: #000000;
-    margin-bottom: 24px;
-    text-align: center;
-  }
-
-  & div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 750px; /* Controla el ancho máximo del certificado */
-  }
-}
-
-.certCard {
-  width: 100%;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: transparent;
-
-  &:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.18);
-  }
-
+  width: 100dvw;
+  background: #7cc5928f;
+  scroll-snap-align: start;
   & img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-  }
-}
-
-/* Ajustes para móviles */
-@media (width <= 800px) {
-  .certification {
-    padding: 20px 16px;
-
-    & h2 {
-      font-size: 32px;
-      margin-bottom: 16px;
-    }
-  }
+    height: 300px;
+    width: 600px;
+    background-image: #000;
+  }  
 }

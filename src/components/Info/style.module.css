@@ -7,6 +7,7 @@
   text-align: center;
   flex-direction: column;
   grid-column: 1;
+  background: #7cc5928f;
   color: #000;
   height: 100dvh;
   scroll-snap-align: start;

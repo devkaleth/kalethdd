@@ -1,7 +1,7 @@
 .proyect {
   scroll-snap-align:start;
   height: 100dvh;
-  background: #b17cc58f;
+  background: #7cc5928f;
   & section {
     padding:20px;
     & a {

@@ -1,10 +1,11 @@
 .about {
   height: 100dvh;
   margin: 0px;
-  background: #000;
+  background: #7cc5928f;
   scroll-snap-align: start;
   & h2 {
     color: #fff;
+    color: #000;
   }
   & section {
     margin: 0px 80px;
@@ -16,6 +17,7 @@
     font-size: 16px;
     & p {
       color: #fff;
+      color: #000;
       text-wrap: wrap;
       letter-spacing: 3px;
       line-height: 30px;

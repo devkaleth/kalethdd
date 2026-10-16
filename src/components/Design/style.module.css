@@ -1,6 +1,7 @@
 .design {
   min-height: 100dvh;
   background: #5b7fd4;
+  background: #7cc5928f;
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
