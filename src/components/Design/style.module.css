@@ -3,26 +3,17 @@
   background: #5b7fd4;
   background: #7cc5928f;
   scroll-snap-align: start;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 60px 24px;
-  box-sizing: border-box;
+  
 
-  & h2 {
-    font-size: 48px;
-    font-weight: 800;
-    color: #ffffff;
-    margin-bottom: 32px;
-    text-align: center;
-  }
 
   & > div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
+  align-items: center;
+  padding: 60px 24px;
+  box-sizing: border-box;
     gap: 28px;
     width: 100%;
     max-width: 1200px;
