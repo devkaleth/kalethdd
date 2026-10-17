@@ -3,9 +3,15 @@
   width: 100dvw;
   background: #7cc5928f;
   scroll-snap-align: start;
-  & img {
-    height: 300px;
-    width: 600px;
-    background-image: #000;
-  }  
+  & div {
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    & img {
+      height: 380px;
+      width: 550px;
+    }  
+  }
+ 
 }
