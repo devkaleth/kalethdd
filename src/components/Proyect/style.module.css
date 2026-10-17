@@ -2,19 +2,23 @@
   scroll-snap-align:start;
   height: 100dvh;
   background: #7cc5928f;
+  
   & section {
     padding:20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     & a {
       color: #000;
       text-decoration: none;
       & article{
         display: flex;
-        padding:10px;
         height: 300px;
         width:600px;
         & img:first-child {
-            height: 400px;
+            height: 390px;
             width: 300px;
+            padding: 20px;
+            border-radius: 20px;
           }
       }
     }
@@ -27,7 +31,7 @@
       & a {
         & article {
           display: inline;
-          padding: 2diinlinepx;
+          padding: 2px;
           width: 300px;
           height: 180px;
           & img:first-child {
